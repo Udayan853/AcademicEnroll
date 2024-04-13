@@ -1,2 +1,5 @@
 # AcademicEnroll
-Enroll into university courses
+
+## Description
+
+This application helps you by providing an intuitive interface for course regitration.

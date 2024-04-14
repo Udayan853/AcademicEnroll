@@ -4,12 +4,15 @@ import { App } from './App.tsx'
 import { UserProvider } from './context/userContext.tsx'
 import './index.css'
 import { CourseProvider } from './context/courseContext.tsx'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <UserProvider>
       <CourseProvider>
-        <App />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
       </CourseProvider>
     </UserProvider>
   </React.StrictMode>

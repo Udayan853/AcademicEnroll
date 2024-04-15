@@ -4,7 +4,7 @@ type ErrorProps = {
 
 const Fallback = ({ error }: ErrorProps) => {
   console.error(error)
-  return <div>Oops Something has gone wrong</div>
+  return <div>Oops Something went wrong</div>
 }
 
 export { Fallback }
